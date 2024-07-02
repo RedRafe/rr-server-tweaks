@@ -13,7 +13,14 @@ data:extend({
 		name = 'rrst:wlw',
 		type = 'bool-setting',
 		setting_type = 'startup',
-		default_value = true,
+		default_value = false,
 		order = 'c:a',
+	},
+	{
+		name = 'rrst:sim20',
+		type = 'bool-setting',
+		setting_type = 'startup',
+		default_value = false,
+		order = 'c:b',
 	},
 })
